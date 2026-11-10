@@ -52,8 +52,8 @@ Idempotency-Key: 9f1c-say-hi-exactly-once
 ### 📈 Settlement report
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=chaad-grayson&show_icons=true&hide_border=true&theme=tokyonight&count_private=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chaad-grayson&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chaad-grayson&theme=tokyonight" alt="GitHub stats" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=chaad-grayson&theme=tokyonight" alt="Top languages by commit" />
 </p>
 
 <p align="center">
