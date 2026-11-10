@@ -1,29 +1,55 @@
-<h1 align="center">Hi, I'm Grayson 👋</h1>
-
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&center=true&vCenter=true&width=520&lines=Backend+developer;Building+payment+systems+that+don't+lose+money;Laravel+%E2%80%A2+Node.js+%E2%80%A2+Vue" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&center=true&vCenter=true&width=560&lines=%24+curl+github.com%2Fchaad;HTTP%2F1.1+200+OK;Hi%2C+I'm+Chaad+%F0%9F%91%8B;I+move+money+between+systems." alt="Typing SVG" /></a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=chaad-grayson&color=blue&style=flat-square&label=profile+views" alt="profile views" />
-</p>
+```http
+GET /chaad HTTP/1.1
+Host: github.com
+Accept: application/json
+Idempotency-Key: 9f1c-say-hi-exactly-once
+```
 
----
+```json
+{
+  "status": "ok",
+  "data": {
+    "name": "Chaad",
+    "role": "Backend Developer",
+    "domain": "payments",
+    "builds": [
+      "payment gateway integrations",
+      "callback & webhook handlers",
+      "back-office dashboards",
+      "the boring glue that makes the numbers add up"
+    ],
+    "beliefs": [
+      "every callback arrives twice",
+      "money is an integer, never a float",
+      "if it isn't logged, it didn't happen",
+      "retries are a feature, duplicates are a bug"
+    ],
+    "currently_learning": ["system design", "observability"]
+  },
+  "meta": { "response_time_ms": 42, "coffee_level": "critical" }
+}
+```
 
-### 🧑‍💻 About me
-
-- 💳 I build **payment backends**: gateways, callbacks, back-office dashboards, and the reconciliation glue between them.
-- ⚙️ Most of my days are spent in **Laravel** and **Node.js**, with **Vue** on the front when a dashboard needs one.
-- 🔒 I care about idempotency, audit trails, and webhooks that survive retries.
-- 🌱 Currently getting deeper into system design and observability.
-
-### 🛠️ Tech stack
+### 📦 Dependencies
 
 <p>
-  <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,express,ts,js,vue,tailwind,vite,mysql,docker,linux,git&perline=7" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,express,ts,js,vue,tailwind,vite,mysql,docker,linux,git&perline=13" alt="tech stack" />
 </p>
 
-### 📊 GitHub stats
+### 🧾 Webhook delivery log
+
+| # | event | status | note |
+|---|-------|:------:|------|
+| 1 | `bug.reported` | `500` | reproduced locally |
+| 2 | `bug.reported` | `500` | added logs, still a mystery |
+| 3 | `bug.reported` | `409` | turns out it was a duplicate callback |
+| 4 | `fix.deployed` | `200` | added an idempotency key. sleeping now |
+
+### 📈 Settlement report
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=chaad-grayson&show_icons=true&hide_border=true&theme=tokyonight&count_private=true" alt="GitHub stats" />
@@ -36,4 +62,7 @@
 
 ---
 
-<p align="center"><i>Thanks for stopping by ✨</i></p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=chaad-grayson&color=blue&style=flat-square&label=requests+served" alt="profile views" /><br/>
+  <sub><code>Connection: keep-alive</code> · thanks for stopping by</sub>
+</p>
